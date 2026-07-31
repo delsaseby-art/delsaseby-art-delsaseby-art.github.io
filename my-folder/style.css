@@ -1,0 +1,43 @@
+.aura-main{
+
+position:absolute;
+
+width:600px;
+height:800px;
+
+background:
+radial-gradient(
+circle,
+white,
+cyan,
+transparent 70%
+);
+
+
+filter:
+blur(40px);
+
+
+animation:
+auraPulse 1s infinite alternate;
+
+}
+
+
+
+@keyframes auraPulse{
+
+from{
+
+transform:scale(.8);
+
+}
+
+
+to{
+
+transform:scale(1.2);
+
+}
+
+}
