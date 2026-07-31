@@ -1,38 +1,36 @@
-.aura-main{
+.mui{
 
 position:absolute;
 
-width:600px;
-height:800px;
+width:500px;
+height:700px;
 
 background:
+
 radial-gradient(
 circle,
 white,
 cyan,
-transparent 70%
+transparent
 );
 
 
-filter:
-blur(40px);
+filter:blur(40px);
 
 
 animation:
-auraPulse 1s infinite alternate;
+muiPulse 1s infinite alternate;
 
 }
 
 
-
-@keyframes auraPulse{
+@keyframes muiPulse{
 
 from{
 
-transform:scale(.8);
+transform:scale(.9);
 
 }
-
 
 to{
 
