@@ -1,0 +1,14 @@
+document
+.getElementById("ascend")
+.onclick=function(){
+
+document.body.classList.add("god-mode");
+
+
+setTimeout(()=>{
+
+document.body.classList.remove("god-mode");
+
+},5000);
+
+}
