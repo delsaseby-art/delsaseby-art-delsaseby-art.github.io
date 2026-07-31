@@ -1,14 +1,11 @@
-let power = 900000;
+
+function transform(){
 
 
-setInterval(()=>{
-
-power += Math.floor(Math.random()*50000);
-
-
-document.getElementById("power")
-.innerHTML =
-power.toLocaleString();
+document.body.classList.toggle(
+"god-mode"
+);
 
 
-},1000);
+}
+
